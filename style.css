@@ -1,4 +1,36 @@
+:root{
+    --pr-color : #048853;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: green;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+.tombol-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: white;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.tombol-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+
 }
